@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @Id
+ * @Column(type="integer")
+ * @GeneratedValue(strategy="IDENTITY")
+ */
+private \$id;
+]]></content>
+	<tabTrigger>ormid</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

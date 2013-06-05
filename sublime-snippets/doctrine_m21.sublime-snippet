@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ManyToOne(targetEntity="${1/(.*)/\u$1/}", inversedBy="${TM_FILENAME/(.*)[.](.*)/\l$1/g}s", cascade={"remove"})
+ * @JoinColumn(name="${1}_id", referencedColumnName="id")
+ */
+private \$${1};
+
+]]></content>
+	<tabTrigger>m21</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

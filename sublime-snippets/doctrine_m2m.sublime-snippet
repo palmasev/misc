@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ManyToMany(targetEntity="${1}", inversedBy="${2}")
+ * @JoinTable(name="${3}",
+ *      joinColumns={@ORM\JoinColumn(name="${4}_id", referencedColumnName="id")},
+ *      inverseJoinColumns={@ORM\JoinColumn(name="${5}_id", referencedColumnName="id")}
+ * )
+ */
+]]></content>
+	<tabTrigger>m2m</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @Column(type="${1:string}", length=${2})
+ */
+protected \$${3:vble};
+]]></content>
+	<tabTrigger>orml</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

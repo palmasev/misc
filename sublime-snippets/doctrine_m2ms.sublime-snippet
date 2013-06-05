@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @ManyToMany(targetEntity="${1}", mappedBy="${2}")
+ */
+]]></content>
+	<tabTrigger>m2ms</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

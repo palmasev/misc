@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @OneToMany(targetEntity="${1/(.*)/\u$1/}", mappedBy="${TM_FILENAME/(.*)[.](.*)/\l$1/g}")
+ */
+private \$$1s;
+]]></content>
+	<tabTrigger>12m</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

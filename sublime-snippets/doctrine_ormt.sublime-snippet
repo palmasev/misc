@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @Table(name="${1/(.*)/\l$1/}s")
+ * @Entity
+ */
+class ${1:ClassName} {
+
+}
+]]></content>
+	<tabTrigger>ormt</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
